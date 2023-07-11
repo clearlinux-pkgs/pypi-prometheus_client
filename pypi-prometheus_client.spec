@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-prometheus_client
-Version  : 0.17.0
-Release  : 52
-URL      : https://files.pythonhosted.org/packages/0e/01/bda72c3b5d4a0df411bceb88c4993d413dd9b7d3b3b68ab19171a09e7db1/prometheus_client-0.17.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/0e/01/bda72c3b5d4a0df411bceb88c4993d413dd9b7d3b3b68ab19171a09e7db1/prometheus_client-0.17.0.tar.gz
+Version  : 0.17.1
+Release  : 53
+URL      : https://files.pythonhosted.org/packages/f5/05/aee33352594522c56eb4a4382b5acd9a706a030db9ba2fc3dc38a283e75c/prometheus_client-0.17.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/f5/05/aee33352594522c56eb4a4382b5acd9a706a030db9ba2fc3dc38a283e75c/prometheus_client-0.17.1.tar.gz
 Summary  : Python client for the Prometheus monitoring system.
 Group    : Development/Tools
 License  : Apache-2.0
@@ -51,10 +51,10 @@ python3 components for the pypi-prometheus_client package.
 
 
 %prep
-%setup -q -n prometheus_client-0.17.0
-cd %{_builddir}/prometheus_client-0.17.0
+%setup -q -n prometheus_client-0.17.1
+cd %{_builddir}/prometheus_client-0.17.1
 pushd ..
-cp -a prometheus_client-0.17.0 buildavx2
+cp -a prometheus_client-0.17.1 buildavx2
 popd
 
 %build
@@ -62,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684972925
+export SOURCE_DATE_EPOCH=1689089982
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
