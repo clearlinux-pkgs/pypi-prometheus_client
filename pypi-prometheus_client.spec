@@ -7,7 +7,7 @@
 #
 Name     : pypi-prometheus_client
 Version  : 0.19.0
-Release  : 57
+Release  : 58
 URL      : https://files.pythonhosted.org/packages/00/02/a4e12fe70cd57137be321785c9d6a046c7f537d5888226a01d083b4c88f6/prometheus_client-0.19.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/00/02/a4e12fe70cd57137be321785c9d6a046c7f537d5888226a01d083b4c88f6/prometheus_client-0.19.0.tar.gz
 Summary  : Python client for the Prometheus monitoring system.
